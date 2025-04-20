@@ -6,13 +6,13 @@ Provide a brief description of your API. For example:
 
 ## Prerequisites
 1. **Go**: Ensure you have Go installed. You can download it from [golang.org](https://golang.org/).
-2. **Database**: Install the required database Postgress.
+2. **Database**: Install the required database Postgres, or use your cloud database.
 3. **Environment Variables**: Set up the necessary environment variables.
 
 ## Environment Variables
 Create a `.env` file in the root directory of your project and add the following variables:
 
 ```env
-DBCONNECTION=
+DBCONNECTION=postgres://YourUserName:YourPassword@YourHostname:5432/YourDatabaseName
 GIN_MODE=debug
 APP_PORT=8080
