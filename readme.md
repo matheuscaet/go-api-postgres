@@ -7,7 +7,7 @@ This is a RESTful API built with Go. It provides endpoints for managing.
 ```/health (should implements database health)
 /item -> POST to create new database item
 /item:itemId -> GET to get an item by id
-/items -> GET to return all database rows
+/items -> GET to return all database rows```
 
 ## Prerequisites
 1. **Go**: Ensure you have Go installed. You can download it from [golang.org](https://golang.org/).
